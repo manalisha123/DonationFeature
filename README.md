@@ -16,11 +16,12 @@ Note: The iframe is not getting loaded in cypress for credit card number,expiry 
       
 Tried:
 1.Added command in command.js to handle Iframe element
+2.Imported iframe inbuild package
 
 Steps:
-1.Please download the zip file and extract in local 
-2.Run command npm install D cypress-iframe and impored the ifrmae package to scripts
-3.Run the integration folder above code
+1.Please download the zip file and extract in local.
+2.Run command npm install D cypress-iframe (required to support inbild iframe pacage mentioned above)
+3.Run the scripts from integration folder above code
 
 
 
